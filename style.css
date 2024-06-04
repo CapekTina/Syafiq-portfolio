@@ -1,0 +1,29 @@
+@font-face {
+    font-family: myfont;
+    src: url(font/FOTRodin\ Pro\ L.otf);
+}
+
+*{
+    font-family:myfont;
+
+}
+body{
+
+    background-color: #d1cdb7;
+}
+
+#title{
+    font-size: 25px;
+    color: white;
+    
+}
+main{
+
+    background-color: rgb(32, 32, 32);
+}
+#video{
+    width: 900px;    
+    height: 500px;
+    position: relative;
+    right: 0;
+}
