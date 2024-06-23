@@ -2,28 +2,35 @@
     font-family: myfont;
     src: url(font/FOTRodin\ Pro\ L.otf);
 }
+body{
+    background-color: black;
 
+}
 *{
     font-family:myfont;
+}
+.navbar{
+    font-family: myfont;
 
 }
-body{
+#gambarmain{
+    display: block;
+    height: 300px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 
-    background-color: #d1cdb7;
+}
+html,main{ 
+    background-color: #dcd8c0;
+    height: 90%;
+
 }
 
-#title{
-    font-size: 25px;
-    color: white;
-    
-}
-main{
 
-    background-color: rgb(32, 32, 32);
-}
-#video{
-    width: 900px;    
-    height: 500px;
-    position: relative;
-    right: 0;
+#intro{
+    font-family: myfont;
+    font-size: 20px;
+    color: black;
+
 }
